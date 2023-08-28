@@ -19,7 +19,7 @@ has an _equilibrium term_ $s_0 + vT$ and a _dynamical term_ $v \Delta v / (2 \sq
 
 Each parameter describes a well-defined property . For example, transitions between highway and city traffic, can be modeled by solely changing the desired speed. All other parameters can be kept constant, modeling that somebody who drives aggressively (or defensively) on a highway presumably does so in city traffic as well.
 
-%  ![File structure](./images/documentation_figure.png "Title")
+![File structure](./images/Drivingbehavior.jpg "Title")
 
 ---
 ## References
