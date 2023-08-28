@@ -12,6 +12,15 @@ $$s^*(v,\Delta v) = s_0 + \max(0, vT + \frac{v \Delta v}{2 \sqrt{ab}}) $$
 has an _equilibrium term_ $s_0 + vT$ and a _dynamical term_ $v \Delta v / (2 \sqrt{ab})$ that implements the "intelligent" braking strategy.
 
 
+## Parameters
+* When _accelerating on a free raod from a standstill_, the vehicle starts with the maximum acceleration $a$. The acceleration decreases with increasing speed and goes to zero as the speed approaches the desired speed $v_0$. The exponent $\delta$ controls this reduction: The greater its value, the later the reduction of the acceleration when approaching the desired speed.
+* When _following a leading vehicle_, the distance gap is approximately given by the safefy distance $s_0 + vT$. The safety distance is determined by the time gap $T$ plus the minimum distacen gap $s_0$.
+* When _approaching slower or stopped vehicles_, the deceleration usually does not exceed the comfortable deceleration $b$. The acceleration function is smooth during transitions between these situations.
+
+Each parameter describes a well-defined property . For example, transitions between highway and city traffic, can be modeled by solely changing the desired speed. All other parameters can be kept constant, modeling that somebody who drives aggressively (or defensively) on a highway presumably does so in city traffic as well.
+
+ ![File structure](./images/documentation_figure.png "Title")
+
 ---
 ## References
 ```
