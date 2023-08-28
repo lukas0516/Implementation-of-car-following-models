@@ -17,9 +17,11 @@ has an _equilibrium term_ $s_0 + vT$ and a _dynamical term_ $v \Delta v / (2 \sq
 * When _following a leading vehicle_, the distance gap is approximately given by the safefy distance $s_0 + vT$. The safety distance is determined by the time gap $T$ plus the minimum distacen gap $s_0$.
 * When _approaching slower or stopped vehicles_, the deceleration usually does not exceed the comfortable deceleration $b$. The acceleration function is smooth during transitions between these situations.
 
-Each parameter describes a well-defined property . For example, transitions between highway and city traffic, can be modeled by solely changing the desired speed. All other parameters can be kept constant, modeling that somebody who drives aggressively (or defensively) on a highway presumably does so in city traffic as well.
+Each parameter describes a well-defined property. For example, transitions between highway and city traffic, can be modeled by solely changing the desired speed. All other parameters can be kept constant, modeling that somebody who drives aggressively (or defensively) on a highway presumably does so in city traffic as well.
 
-![File structure](./images/Drivingbehavior.jpg "Title")
+![Driving behavior](../images/Driving_behavior.jpg "Title")
+
+Since the IDM has no explicit reaction time and its driving behavior is given in terms of a continuously differentiable acceleration function, the IDM describes more closely the characteristics of semi-automated driving by adaptive cruise control (ACC) than that of a human driver. However, it can be easily be extended to capture human aspects like estimation errors, reaction times, or looking several vehicles ahead.
 
 ---
 ## References
